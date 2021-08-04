@@ -1,6 +1,0 @@
-kafka cmds:
----------------------------------------------------------------------------------
-topic create: ./kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
-topic delete: ./kafka-topics.sh --delete --topic quickstart-events --bootstrap-server localhost:9092
-topic list: ./kafka-topics.sh --list --bootstrap-server localhost:9092
-topic view: ./kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
